@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio programación web</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/jquery/jquery-2.1.0.js"></script>
+        <script src="js/jquery/jquery.validate.min.js"></script>
+        <script src="js/validator.js" id="validator_js"></script>
+        <link rel=stylesheet href="css/base.css" type="text/css">
+
+    </head>
+    <body>
+        <table width="972px">
+            <tr>
+                <td>
+                    <div id="div_cabecera">
+                        <img src="img/cabecera.png" title="cabecera" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Especifica tus datos personales:</legend>
+                        <div id="div_form" class="formStyle">
+                            <form id="personal_data" method="get">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="input_nombre">Nombre</label>
+                                        </td>
+                                        <td>
+                                            <label for="input_apellidos">Apellidos</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" id="input_nombre" name="input_nombre"/>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="input_apellidos" name="input_apellidos"/>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label for="input_telefono">Teléfono</label>
+                                        </td>
+                                        <td>
+                                            <label for="input_email">Correo Electrónico</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="number" id="input_telefono" name="input_telefono"/>
+                                        </td>
+                                        <td>
+                                            <input type="email" id="input_email" name="input_email"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <label for="input_sexo">Sexo</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="input_sexo" id="input_sexo">
+                                                <option value="1">Hombre</option> 
+                                                <option value="2">Mujer</option> 
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="text-align: center;">
+                                            <input type="button" name="guardar" id="guardar" value="Guardar"/> 
+                                        </td>
+                                    </tr>
+                                    <tr><td><div id="resultado"></div></td></tr>
+                                </table>
+                            </form>
+                        </div>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+

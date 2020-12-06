@@ -1,0 +1,39 @@
+/* 
+    Document   : base
+    Created on : 24-feb-2014, 15:50:17
+    Author     : Jesus Ramirez Guerrero
+    Description:
+        Estilo para la página del test.
+*/
+
+root { 
+    display: block;
+}
+#div_form form {
+    padding-top: 2em;
+}
+#div_form td {
+    width: 450px;
+}
+fieldset {
+    border: 0px;
+    padding: 2em;
+}
+input {
+    width: 200px;
+    margin-bottom: 10px;
+}
+legend {
+    font-size: 3em;
+}
+.error {
+    font-weight: bold;
+    color: red;
+    font-style: oblique;
+}
+.good {
+    font-weight: bold;
+    color: green;
+    font-style: oblique;
+}
+
